@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta name="description" content="Portifolio do Prof. Fernando">
     <meta name="author" content="Fernando">
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 
@@ -27,297 +28,310 @@
                 <span></span>
             </div>
         </div>
-    </div>
-    <header>
-        <div class="container-fluid">
-            <div class="navbar">
-                <a href="#" id="logo" title="Portifolio do Prof. Fernando">
-                    Portifolio
-                </a>
 
-                <div class="navigation-row">
-                    <nav id="navigation">
-                        <button type="button" class="navbar-toggle">
-                            <i class="fa fa-bars"></i>
-                        </button>
-                        <div class="nav-box navbar-collapse">
-                            <ul class="navigation-menu nav navbar-nav navbars" id="nav">
-                                <li data-menuanchor="slide01" class="active"><a href="#slide01"></a>Home</li>
-                                <li data-menuanchor="slide02"><a href="#slide02"></a>Sobre Mim</li>
-                                <li data-menuanchor="slide03"><a href="#slide03"></a>Serviços</li>
-                                <li data-menuanchor="slide04"><a href="#slide04"></a>Skills</li>
-                                <li data-menuanchor="slide05"><a href="#slide05"></a>Trabalhos</li>
-                                <li data-menuanchor="slide06"><a href="#slide06"></a>Testemunhos</li>
-                                <li data-menuanchor="slide07"><a href="#slide07"></a>Entre em Contato</li>
-                            </ul>
-                        </div>
-                    </nav>
+        <header id="header">
+            <div class="container-fluid">
+                <div class="navbar">
+                    <a href="#" id="logo" title="Portifolio do Prof. Fernando">
+                        Portifolio
+                    </a>
+                    <div class="navigation-row">
+                        <nav id="navigation">
+                            <button type="button" class="navbar-toggle"><i class="fa fa-bars"></i></button>
+                            <div class="nav-box navbar-collapse">
+                                <ul class="navigation-menu nav navbar-nav navbars" id="nav">
+                                    <li data-menuanchor="slide01" class="active"><a href="#slide01">Home</a></li>
+                                    <li data-menuanchor="slide02"><a href="#slide02">Sobre Mim</a></li>
+                                    <li data-menuanchor="slide03"><a href="#slide03">Serviços</a></li>
+                                    <li data-menuanchor="slide04"><a href="#slide04">Skills</a></li>
+                                    <li data-menuanchor="slide05"><a href="#slide05">Trabalhos</a></li>
+                                    <li data-menuanchor="slide06"><a href="#slide06">Testemunhos</a></li>
+                                    <li data-menuanchor="slide07"><a href="#slide07">Entre em Contato</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
                 </div>
             </div>
-        </div>
-    </header>
+        </header>
 
-    <!-- <video autoplay muted loop id="meuVideo">
-        <source src="images/video-bg.mp4" type="video/mp4">
-    </video> -->
+        <video autoplay muted loop id="myVideo">
+            <source src="images/video-bg1.mp4" type="video/mp4">
+        </video>
 
-    <div id="fullpage" class="fullpage-default">
-        <div class="section animated-row" data-section="slide01">
-            <div class="welcome-box">
-                <span class="welcome-first animate"
-                    data-animate="fadeInUp">Olá, seja bem vindo ao meu</span>
-                <h1 class="welcome-title animate" data-animate="fadeInUp">Portifolio</h1>
-                <p class="animate" data-animate="fadeInUp">Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Pretium aenean pharetra magna ac placerat vestibulum lectus mauris ultrices.
-                </p>
-                <div class="scroll-down next-section animate data-animate="fadeInUp"">
-                    <img src="images/mouse-scroll.png" alt="role para baixo">
-                    <span>Role para baixo</span>
-                </div> <!-- ./scroll-down -->
-            </div> <!-- ./welcome-box-->
-        </div> <!-- ./section slide01 -->
+        <div id="fullpage" class="fullpage-default">
+            <div class="section animated-row" data-section="slide01">
+                <div class="section-inner">
+                    <div class="welcome-box">
+                        <span class="welcome-first animate" data-animate="fadeInUp">Olá, seja bem vindo ao meu</span>
+                        <h1 class="welcome-title animate" data-animate="fadeInUp">Portifolio</h1>
+                        <p class="animate" data-animate="fadeInUp">Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Pretium aenean pharetra magna ac placerat vestibulum lectus mauris ultrices.
+                        </p>
+                        <div class="scroll-down next-section animate" data-animate="fadeInUp">
+                            <img src="images/mouse-scroll.png" alt="role para baixo">
+                            <span>Role para baixo</span>
+                        </div> <!-- ./scroll-down -->
+                    </div> <!-- ./welcome-box-->
+                </div> <!-- ./section-inner -->
+            </div> <!-- ./section slide01 -->
 
-        <div class="section animated-row" data-section="slide02">
-            <div class="section-inner">
-                <div class="about-section">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8 wide-col-laptop">
-                            <div class="col-md-6">
-                                <div class="about-contentbox">
-                                    <div class="animate" data-animate="fadeInUp">
-                                        <span>Sobre Mim</span>
-                                        <h2>Quem sou eu?</h2>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                            Aenean et tortor at risus. Mauris pellentesque pulvinar
-                                            pellentesque habitant morbi tristique. Odio morbi quis commodo
-                                            odio. Eget lorem dolor sed viverra ipsum nunc aliquet.
-                                        </p>
-                                    </div> <!-- ./animate -->
+            <div class="section animated-row" data-section="slide02">
+                <div class="section-inner">
+                    <div class="about-section">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8 wide-col-laptop">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="about-contentbox">
+                                            <div class="animate" data-animate="fadeInUp">
+                                                <span>Sobre Mim</span>
+                                                <h2>Quem sou eu?</h2>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                    Aenean et tortor at risus. Mauris pellentesque pulvinar
+                                                    pellentesque habitant morbi tristique. Odio morbi quis commodo
+                                                    odio. Eget lorem dolor sed viverra ipsum nunc aliquet.
+                                                </p>
+                                            </div> <!-- ./animate -->
 
-                                    <div class="facts-list owl-carousel">
-                                        <div class="item animate" data-animate="fadeInUp">
-                                            <div class="counter-box">
-                                                <i class="fa fa-trophy counter-icon" aria-hidden="true">
-                                                    <span class="count-number">32</span>Prêmios
-                                                </i>
-                                            </div>
-                                        </div> <!-- ./item -->
+                                            <div class="facts-list owl-carousel">
+                                                <div class="item animate" data-animate="fadeInUp">
+                                                    <div class="counter-box">
+                                                        <i class="fa fa-trophy counter-icon" aria-hidden="true"></i>
+                                                        <span class="count-number">32</span>Prêmios
+                                                    </div>
+                                                </div> <!-- ./item -->
 
-                                        <div class="item animate" data-animate="fadeInUp">
-                                            <div class="counter-box">
-                                                <i class="fa fa-desktop counter-icon" aria-hidden="true">
-                                                    <span class="count-number">12</span>Anos de Experiência
-                                                </i>
-                                            </div>
-                                        </div> <!-- ./item -->
+                                                <div class="item animate" data-animate="fadeInUp">
+                                                    <div class="counter-box">
+                                                        <i class="fa fa-desktop counter-icon" aria-hidden="true"></i>
+                                                        <span class="count-number">12</span>Anos de Experiência
+                                                    </div>
+                                                </div> <!-- ./item -->
 
-                                        <div class="item animate" data-animate="fadeInUp">
-                                            <div class="counter-box">
-                                                <i class="fa fa-graduation-cap counter-icon" aria-hidden="true">
-                                                    <span class="count-number">3</span>Graduações
-                                                </i>
-                                            </div>
-                                        </div> <!-- ./item -->
+                                                <div class="item animate" data-animate="fadeInUp">
+                                                    <div class="counter-box">
+                                                        <i class="fa fa-graduation-cap counter-icon" aria-hidden="true"></i>
+                                                        <span class="count-number">3</span>Graduações
+                                                    </div>
+                                                </div> <!-- ./item -->
 
-                                        <div class="item animate" data-animate="fadeInUp">
-                                            <div class="counter-box">
-                                                <i class="fa fa-support counter-icon" aria-hidden="true">
-                                                    <span class="count-number">6</span>Equipes
-                                                </i>
-                                            </div>
-                                        </div> <!-- ./item -->
+                                                <div class="item animate" data-animate="fadeInUp">
+                                                    <div class="counter-box">
+                                                        <i class="fa fa-support counter-icon" aria-hidden="true"></i>
+                                                        <span class="count-number">6</span>Equipes
+                                                    </div>
+                                                </div> <!-- ./item -->
 
-                                        <div class="item animate" data-animate="fadeInUp">
-                                            <div class="counter-box">
-                                                <i class="fa fa-certificate counter-icon" aria-hidden="true">
-                                                    <span class="count-number">10</span>Cetificações
-                                                </i>
-                                            </div>
-                                        </div> <!-- ./item -->
-                                    </div> <!-- ./facts-list -->
-                                </div> <!-- ./about-contentbox -->
-                            </div> <!-- ./col-md-6 -->
+                                                <div class="item animate" data-animate="fadeInUp">
+                                                    <div class="counter-box">
+                                                        <i class="fa fa-certificate counter-icon" aria-hidden="true"></i>
+                                                        <span class="count-number">10</span>Certificações
+                                                    </div>
+                                                </div> <!-- ./item -->
+                                            </div> <!-- ./facts-list -->
+                                        </div> <!-- ./about-contentbox -->
+                                    </div> <!-- ./col-md-6 -->
 
-                            <div class="col-md-6">
-                                <figure class="about-img animate" data-animate="fadeInUp">
-                                    <img src="images/profile-girl.jpg" class="rounded" >
-                                </figure>
-                            </div> <!-- ./col-md-6 -->
-                        </div> <!-- ./col-lg-8 -->
-                    </div> <!-- ./row -->
-                </div> <!-- ./about-section -->
-            </div> <!-- ./section-inner -->
-        </div> <!-- ./section slide02 -->
-
-        <div class="section animated-row" data-section="slide03">
-            <div class="section-inner">
-                <div class="row justify-content-center">
-                    <div class="title-block animate" data-animate="fadeInUp">
-                        <span>Serviços</span>
-                        <h2>O que eu já fiz</h2>
-                    </div> <!-- ./title-block -->
-
-                    <div class="services-section">
-                        <div class="services-list owl-carousel">
-                            <div class="item animate" data-animate="fadeInUp">
-                                <div class="service-box">
-                                    <span class="service-icon">
-                                        <i class="fa fa-bookmark" aria-hidden="true"></i>
-                                    </span>
-                                    <h3>Temas em Bootstrap</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                        eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                    </p>
-                                </div> <!-- ./service-box -->
-                            </div> <!-- ./item -->
-
-                            <div class="item animate" data-animate="fadeInUp">
-                                <div class="service-box">
-                                    <span class="service-icon">
-                                        <i class="fa fa-cloud" aria-hidden="true"></i>
-                                    </span>
-                                    <h3>Códigos HTML5</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                        eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                    </p>
-                                </div> <!-- ./service-box -->
-                            </div> <!-- ./item -->
-
-                            <div class="item animate" data-animate="fadeInUp">
-                                <div class="service-box">
-                                    <span class="service-icon">
-                                        <i class="fa fa-desktop" aria-hidden="true"></i>
-                                    </span>
-                                    <h3>Total Resposivo</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                        eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                    </p>
-                                </div> <!-- ./service-box -->
-                            </div> <!-- ./item -->
-
-                            <div class="item animate" data-animate="fadeInUp">
-                                <div class="service-box">
-                                    <span class="service-icon">
-                                        <i class="fa fa-mobile" aria-hidden="true"></i>
-                                    </span>
-                                    <h3>Pronto para Mobile</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                        eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                    </p>
-                                </div> <!-- ./service-box -->
-                            </div> <!-- ./item -->
-
-                            <div class="item animate" data-animate="fadeInUp">
-                                <div class="service-box">
-                                    <span class="service-icon">
-                                        <i class="fa fa-database" aria-hidden="true"></i>
-                                    </span>
-                                    <h3>Atendimento 24/7</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                        eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                    </p>
-                                </div> <!-- ./service-box -->
-                            </div> <!-- ./item -->
-
-                            <div class="item animate" data-animate="fadeInUp">
-                                <div class="service-box">
-                                    <span class="service-icon">
-                                        <i class="fa fa-bell" aria-hidden="true"></i>
-                                    </span>
-                                    <h3>Instalações Automatizadas</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                        eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                    </p>
-                                </div> <!-- ./service-box -->
-                            </div> <!-- ./item -->
-                        </div> <!-- ./services-list -->
-                    </div> <!-- ./services-section -->
-                </div> <!-- ./row -->
-            </div> <!-- ./section-inner -->
-        </div> <!-- ./sections slide03 -->
-
-        <div class="section animated-row" data-section="slide04">
-            <div class="section-inner">
-                <div class="row justify-content-center">
-                    <div class="col-md-7 wide-col-laptop">
-                        <div class="title-block animate" data-animate="fadeInUp">
-                            <span>Minhas Skills</span>
-                            <h2>No que sou bom?</h2>
-                        </div> <!-- ./title-block -->
-
-                        <div class="skills-row animinate" data-animate="fadeInUp">
-                            <div class="row">
-                                <div class="col-md-8 offset-md-2">
-                                    <div class="skill-item">
-                                        <h6>HTML/CSS</h6>
-                                        <div class="skill-bar">
-                                            <span>70%</span>
-                                            <div class="filled-bar"></div>
-                                        </div> <!-- ./skill-bar -->
-                                    </div> <!-- ./skill-item -->
-
-                                    <div class="skill-item">
-                                        <h6>Laravel</h6>
-                                        <div class="skill-bar">
-                                            <span>95%</span>
-                                            <div class="filled-bar-2"></div>
-                                        </div> <!-- ./skill-bar -->
-                                    </div> <!-- ./skill-item -->
-
-                                    <div class="skill-item">
-                                        <h6>Liderança</h6>
-                                        <div class="skill-bar">
-                                            <span>80%</span>
-                                            <div class="filled-bar-2"></div>
-                                        </div> <!-- ./skill-bar -->
-                                    </div> <!-- ./skill-item -->
+                                    <div class="col-md-6">
+                                        <figure class="about-img animate" data-animate="fadeInUp">
+                                            <img src="images/profile-02.jpg" class="rounded" >
+                                        </figure>
+                                    </div> <!-- ./col-md-6 -->
                                 </div> <!-- ./row -->
-                            </div> <!-- ./row -->
-                        </div> <!-- ./skill-row -->
-                    </div> <!-- ./col-md-7 -->
-                </div> <!-- ./row -->
-            </div> <!-- ./section-inner-->
-        </div> <!-- ./section slide04-->
+                            </div> <!-- ./col-lg-8 -->
+                        </div> <!-- ./row -->
+                    </div> <!-- ./about-section -->
+                </div> <!-- ./section-inner -->
+            </div> <!-- ./section slide02 -->
 
-        <div class="section animated-row" data-section="fadeInUp">
-            <div class="section-inner">
-                <div class="row justify-content-center">
-                    <div class="col-md-8 wide-col-laptop">
-                        <div class="title-block animate" data-animate="dadeInUp">
-                            <span>Meus Trabalhos</span>
-                            <h2>Trabalhos realizados</h2>
-                        </div> <!-- ./title-block -->
+            <div class="section animated-row" data-section="slide03">
+                <div class="section-inner">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8 wide-col-laptop">
+                            <div class="title-block animate" data-animate="fadeInUp">
+                                <span>Serviços</span>
+                                <h2>O que eu já fiz</h2>
+                            </div> <!-- ./title-block -->
 
-                        <div class="gallery-section">
-                            <div class="gallery-list owl-carousel">
-                                <div class="item animate" data-animate="fadeInUp">
-                                    <div class="portfolio-item">
-                                        <div class="thumb">
-                                            <img src="images/item-1.jpg">
-                                        </div> <!-- ./thumb -->
-                                        <div class="thumb-inner animate" data-animate="fadeInUp">
-                                            <h4>Lorem ipsum dolor</h4>
+                            <div class="services-section">
+                                <div class="services-list owl-carousel">
+                                    <div class="item animate" data-animate="fadeInUp">
+                                        <div class="service-box">
+                                            <span class="service-icon">
+                                                <i class="fa fa-bookmark" aria-hidden="true"></i>
+                                            </span>
+                                            <h3>Temas em Bootstrap</h3>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
                                             </p>
-                                        </div> <!-- ./thumb-inner-->
-                                    </div> <!-- portfolio-item -->
-                                </div> <!-- ./item -->
-                            </div> <!-- ./gallery-list -->
-                        </div> <!-- gallery-section -->
+                                        </div> <!-- ./service-box -->
+                                    </div> <!-- ./item -->
 
-                    </div> <!-- ./col-md-8 -->
-                </div> <!-- ./row -->
-            </div> <!-- ./section-inner -->
-        </div> <!-- ./section slide05 -->
+                                    <div class="item animate" data-animate="fadeInUp">
+                                        <div class="service-box">
+                                            <span class="service-icon">
+                                                <i class="fa fa-cloud" aria-hidden="true"></i>
+                                            </span>
+                                            <h3>Códigos HTML5</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                            </p>
+                                        </div> <!-- ./service-box -->
+                                    </div> <!-- ./item -->
+
+                                    <div class="item animate" data-animate="fadeInUp">
+                                        <div class="service-box">
+                                            <span class="service-icon">
+                                                <i class="fa fa-desktop" aria-hidden="true"></i>
+                                            </span>
+                                            <h3>Totalmente Resposivo</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                            </p>
+                                        </div> <!-- ./service-box -->
+                                    </div> <!-- ./item -->
+
+                                    <div class="item animate" data-animate="fadeInUp">
+                                        <div class="service-box">
+                                            <span class="service-icon">
+                                                <i class="fa fa-mobile" aria-hidden="true"></i>
+                                            </span>
+                                            <h3>Pronto para Mobile</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                            </p>
+                                        </div> <!-- ./service-box -->
+                                    </div> <!-- ./item -->
+
+                                    <div class="item animate" data-animate="fadeInUp">
+                                        <div class="service-box">
+                                            <span class="service-icon">
+                                                <i class="fa fa-database" aria-hidden="true"></i>
+                                            </span>
+                                            <h3>Atendimento 24/7</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                            </p>
+                                        </div> <!-- ./service-box -->
+                                    </div> <!-- ./item -->
+
+                                    <div class="item animate" data-animate="fadeInUp">
+                                        <div class="service-box">
+                                            <span class="service-icon">
+                                                <i class="fa fa-bell" aria-hidden="true"></i>
+                                            </span>
+                                            <h3>Instalações Automatizadas</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                            </p>
+                                        </div> <!-- ./service-box -->
+                                    </div> <!-- ./item -->
+                                </div> <!-- ./services-list -->
+                            </div> <!-- ./services-section -->
+                        </div> <!-- ./col-md-8 -->
+                    </div> <!-- ./row -->
+                </div> <!-- ./section-inner -->
+            </div> <!-- ./sections slide03 -->
+
+            <div class="section animated-row" data-section="slide04">
+                <div class="section-inner">
+                    <div class="row justify-content-center">
+                        <div class="col-md-7 wide-col-laptop">
+                            <div class="title-block animate" data-animate="fadeInUp">
+                                <span>Minhas Skills</span>
+                                <h2>No que sou bom?</h2>
+                            </div> <!-- ./title-block -->
+
+                            <div class="skills-row animinate" data-animate="fadeInUp">
+                                <div class="row">
+                                    <div class="col-md-8 offset-md-2">
+                                        <div class="skill-item">
+                                            <h6>HTML/CSS</h6>
+                                            <div class="skill-bar">
+                                                <span>70%</span>
+                                                <div class="filled-bar"></div>
+                                            </div> <!-- ./skill-bar -->
+                                        </div> <!-- ./skill-item -->
+
+                                        <div class="skill-item">
+                                            <h6>Laravel</h6>
+                                            <div class="skill-bar">
+                                                <span>95%</span>
+                                                <div class="filled-bar-2"></div>
+                                            </div> <!-- ./skill-bar -->
+                                        </div> <!-- ./skill-item -->
+
+                                        <div class="skill-item">
+                                            <h6>Liderança</h6>
+                                            <div class="skill-bar">
+                                                <span>80%</span>
+                                                <div class="filled-bar-2"></div>
+                                            </div> <!-- ./skill-bar -->
+                                        </div> <!-- ./skill-item -->
+                                    </div> <!-- ./row -->
+                                </div> <!-- ./row -->
+                            </div> <!-- ./skill-row -->
+                        </div> <!-- ./col-md-7 -->
+                    </div> <!-- ./row -->
+                </div> <!-- ./section-inner-->
+            </div> <!-- ./section slide04-->
+
+            <div class="section animated-row" data-section="slide05">
+                <div class="section-inner">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8 wide-col-laptop">
+                            <div class="title-block animate" data-animate="dadeInUp">
+                                <span>Meus Trabalhos</span>
+                                <h2>Trabalhos realizados</h2>
+                            </div> <!-- ./title-block -->
+
+                            <div class="gallery-section">
+                                <div class="gallery-list owl-carousel">
+                                    <div class="item animate" data-animate="fadeInUp">
+                                        <div class="portfolio-item">
+                                            <div class="thumb">
+                                                <img src="images/item-1.jpg">
+                                            </div> <!-- ./thumb -->
+                                            <div class="thumb-inner animate" data-animate="fadeInUp">
+                                                <h4>Lorem ipsum dolor</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                </p>
+                                            </div> <!-- ./thumb-inner-->
+                                        </div> <!-- portfolio-item -->
+                                    </div> <!-- ./item -->
+
+                                    <!-- ------------ -->
+                                    <!-- paramos aqui -->
+                                    <!-- ------------ -->
+
+                                </div> <!-- ./gallery-list -->
+                            </div> <!-- gallery-section -->
+                        </div> <!-- ./col-md-8 -->
+                    </div> <!-- ./row -->
+                </div> <!-- ./section-inner -->
+            </div> <!-- ./section slide05 -->
+
+            <div class="section animated-row" data-section="slide06">
 
 
-    </div> <!-- ./fullpage -->
+
+            </div> <!-- ./section slide06 -->
+
+            <div class="section animated-row" data-section="slide07">
 
 
+            </div> <!-- ./section slide07 -->
+
+
+
+
+        </div> <!-- ./fullpage -->
+    </div> <!-- ./video -->
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
