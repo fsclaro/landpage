@@ -26,10 +26,10 @@ $(function() {
 			$(formMessages).addClass('bg-success');
 
 			// Set the message text.
-			$(formMessages).text('Your message successfully sent');
+			$(formMessages).text('Sua mensagem foi enviada com sucesso.');
 
 			// Clear the form.
-			$('#name, #email, #message').val('');			
+			$('#name, #email, #message').val('');
 		})
 		.fail(function(data) {
 			// Make sure that the formMessages div has the 'error' class.
@@ -40,7 +40,7 @@ $(function() {
 			if (data.responseText !== '') {
 				$(formMessages).text(data.responseText);
 			} else {
-				$(formMessages).text('Oops! An error occured and your message could not be sent.');
+				$(formMessages).text('Opss!!! Alguma coisa aconteceu. Sua mensagem não pode ser enviada.');
 			}
 		});
 

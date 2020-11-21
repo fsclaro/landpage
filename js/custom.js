@@ -26,6 +26,7 @@
             }
         }
     };
+
     $(document).ready(function() {
         $(window).on('load', function() {
             $('.preloader').fadeOut();
@@ -46,6 +47,7 @@
                 });
             });
         });
+
         if ($('.facts-list').length) {
             $('.facts-list').owlCarousel({
                 loop: true,
